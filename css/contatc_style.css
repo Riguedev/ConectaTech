@@ -131,11 +131,11 @@
         padding: 10px;
     }
 
-    .title {
+    .title, .contact_info_title {
         font-size: 1.5rem;
     }
 
-    .description {
+    .description, .contact_info_text {
         font-size: 1rem;
     }
 
