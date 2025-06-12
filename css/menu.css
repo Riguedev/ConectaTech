@@ -1,3 +1,7 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
 .menu_bar {
     display: flex;
     justify-content: space-between;

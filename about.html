@@ -3,11 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/about_style.css">
     <title>ConectaTech|Acerca de</title>
 </head>
 <body>
+        <nav class="menu_bar" id="menu">
+        <img src="./assets/icons/ConectaTech_logo.svg" alt="" class="menu_logo">
+        <img src="./assets/icons/menu-hamburguesa.png" alt="icono de despliegue de menu" class="menu_toggle_icon" id="menu_toggle_icon">
+        <div class="menu_toggle_container" id="menu_toggle">
+            <ul class="menu_toggle_list">
+                <li><a class="menu_toggle_option" href="./index.html">Inicio</a></li>
+                <li><a class="menu_toggle_option" href="./about.html">Acerca de</a></li>
+                <li><a class="menu_toggle_option" href="./products.html">Productos</a></li>
+                <li><a class="menu_toggle_option" href="./contact.html">Contactanos</a></li>
+                <li id="close_menu" class="menu_toggle_option">Cerrar</li>
+            </ul>
+        </div>
+        <ul class="menu_list">
+            <li><a class="menu_option" href="./index.html">Inicio</a></li>
+            <li><a class="menu_option" href="./about.html">Acerca de</a></li>
+            <li><a class="menu_option" href="./products.html">Productos</a></li>
+            <li><a class="menu_option" href="./contact.html">Contactanos</a></li>
+        </ul>
+    </nav>
     <h1 class="title">Acerca de ConectaTech</h1>
     <p class="text">Conoce todo sobre tu tienda tecnológica de confianza</p>
 
@@ -23,7 +46,7 @@
         </div>
 
         <div class="about_container reverse">
-            <img src="https://www.shutterstock.com/image-photo/old-geographical-globe-map-book-260nw-2311165765.jpg" alt="" class="about_image">
+            <img src="./assets/image/vision.jpeg" alt="" class="about_image">
             <div class="about_info">
                 <h2 class="about_title">Nuestra Visión</h2>
                 <p class="about_text">
@@ -33,7 +56,7 @@
         </div>
         
         <div class="about_container">
-            <img src="https://www.shutterstock.com/image-photo/old-geographical-globe-map-book-260nw-2311165765.jpg" alt="" class="about_image">
+            <img src="./assets/image/mision.webp" alt="" class="about_image">
             <div class="about_info">
                 <h2 class="about_title">Nuestra Mision</h2>
                 <p class="about_text">
@@ -51,23 +74,38 @@
             </p>
             <div class="team_member_container">
                 <div class="team_member">
-                    <img src="https://static.vecteezy.com/system/resources/previews/033/129/417/non_2x/a-business-man-stands-against-white-background-with-his-arms-crossed-ai-generative-photo.jpg" width="300px" alt="Miembro del equipo" class="team_member_image">
-                    <h3 class="team_member_name">Jesús Rico</h3>
+                    <img src="./assets/image/man.jpg" width="300px" alt="Miembro del equipo" class="team_member_image">
+                    <h3 class="team_member_name">Hector Perez</h3>
                     <p class="team_member_role">Desarrollador Web</p>
                 </div>
                 <div class="team_member">
-                    <img src="https://static.vecteezy.com/system/resources/previews/033/129/417/non_2x/a-business-man-stands-against-white-background-with-his-arms-crossed-ai-generative-photo.jpg" width="300px" alt="Miembro del equipo" class="team_member_image">
+                    <img src="./assets/image/women.jpg" width="300px" alt="Miembro del equipo" class="team_member_image">
                     <h3 class="team_member_name">María López</h3>
                     <p class="team_member_role">Gerente de Ventas</p>
                 </div>
 
                 <div class="team_member">
-                    <img src="https://static.vecteezy.com/system/resources/previews/033/129/417/non_2x/a-business-man-stands-against-white-background-with-his-arms-crossed-ai-generative-photo.jpg" width="300px" alt="Miembro del equipo" class="team_member_image">
+                    <img src="./assets/image/man2.jpg" width="300px" alt="Miembro del equipo" class="team_member_image">
                     <h3 class="team_member_name">Carlos Pérez</h3>
                     <p class="team_member_role">Soporte Técnico</p>
                 </div>
             </div>
         </div>
     </section>
+    <footer class="footer">
+        <p class="footer_text">© 2025 ConectaTech. Todos los derechos reservados.</p>
+        <p class="footer_text">Desarrollado por Jesús Rico</p>
+        <div class="footer_social_container">
+            <a href="https://www.facebook.com">
+                <img src="../assets/icons/facebook.png" alt="Logo de Facebook" class="footer_social_image" width="36px">
+            </a>
+            <a href="https://www.linkedin.com" target="_blank">
+                <img src="../assets/icons/linkedin.png" alt="Logo de LinkedIn" class="footer_social_image" width="36px">
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <img src="../assets/icons/twitter.png" alt="Logo de Twitter" class="footer_social_image" width="36px">
+            </a>
+        </div>
+    </footer>
 </body>
 </html>

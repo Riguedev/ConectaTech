@@ -3,11 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/products_style.css">
     <title>ConectaTech|Productos</title>
 </head>
 <body>
+    <nav class="menu_bar" id="menu">
+        <img src="./assets/icons/ConectaTech_logo.svg" alt="" class="menu_logo">
+        <img src="./assets/icons/menu-hamburguesa.png" alt="icono de despliegue de menu" class="menu_toggle_icon" id="menu_toggle_icon">
+        <div class="menu_toggle_container" id="menu_toggle">
+            <ul class="menu_toggle_list">
+                <li><a class="menu_toggle_option" href="./index.html">Inicio</a></li>
+                <li><a class="menu_toggle_option" href="./about.html">Acerca de</a></li>
+                <li><a class="menu_toggle_option" href="./products.html">Productos</a></li>
+                <li><a class="menu_toggle_option" href="./contact.html">Contactanos</a></li>
+                <li id="close_menu" class="menu_toggle_option">Cerrar</li>
+            </ul>
+        </div>
+        <ul class="menu_list">
+            <li><a class="menu_option" href="./index.html">Inicio</a></li>
+            <li><a class="menu_option" href="./about.html">Acerca de</a></li>
+            <li><a class="menu_option" href="./products.html">Productos</a></li>
+            <li><a class="menu_option" href="./contact.html">Contactanos</a></li>
+        </ul>
+    </nav>
     <h1 class="title">Mira nuestro catalogo</h1>
     <p class="description">Explora nuestra amplia gama de productos tecnológicos, desde smartphones y laptops hasta dispositivos inteligentes para el hogar. Encuentra lo último en innovación y conectividad.</p>
     <section class="products">
@@ -25,73 +48,91 @@
 
         <div class="products_container">
             <div class="product">
-                <img src="https://i.blogs.es/1b6bfa/nintendo-switch-2/1366_2000.jpeg" width="300px" alt="Producto 1" class="product_image">
-                <h2 class="product_title">Smartphone X</h2>
-                <p class="product_description">El último modelo de smartphone con tecnología avanzada y cámara de alta resolución.</p>
-                <p class="product_price">$699.99</p>
-                <button class="add_to_cart">Añadir al carrito</button>
+                <img src="./assets/image/switch.jpeg" width="300px" alt="Producto 1" class="product_image">
+                <h2 class="product_title">Nintendo Switch2</h2>
+                <p class="product_description">La mejor experiencia de juego portatil.</p>
+                <p class="product_price">$449.99</p>
+                <a class="add_to_cart" href="./products/1.html">Ver Producto</a>
             </div>
 
             <div class="product">
-                <img src="https://i.blogs.es/1b6bfa/nintendo-switch-2/1366_2000.jpeg" width="300px" alt="Producto 2" class="product_image">
-                <h2 class="product_title">Laptop Pro</h2>
-                <p class="product_description">Laptop potente y ligera, ideal para profesionales y estudiantes.</p>
-                <p class="product_price">$1299.99</p>
-                <button class="add_to_cart">Añadir al carrito</button>
+                <img src="./assets/image/switch.jpeg" width="300px" alt="Producto 1" class="product_image">
+                <h2 class="product_title">Nintendo Switch2</h2>
+                <p class="product_description">La mejor experiencia de juego portatil.</p>
+                <p class="product_price">$449.99</p>
+                <a class="add_to_cart" href="./products/1.html">Ver Producto</a>
             </div>
 
             <div class="product">
-                <img src="https://i.blogs.es/1b6bfa/nintendo-switch-2/1366_2000.jpeg" width="300px" alt="Producto 3" class="product_image">
-                <h2 class="product_title">Smartwatch Z</h2>
-                <p class="product_description">Reloj inteligente con seguimiento de salud y notificaciones en tiempo real.</p>
-                <p class="product_price">$199.99</p>
-                <button class="add_to_cart">Añadir al carrito</button>
+                <img src="./assets/image/switch.jpeg" width="300px" alt="Producto 1" class="product_image">
+                <h2 class="product_title">Nintendo Switch2</h2>
+                <p class="product_description">La mejor experiencia de juego portatil.</p>
+                <p class="product_price">$449.99</p>
+                <a class="add_to_cart" href="./products/1.html">Ver Producto</a>
             </div>
 
             <div class="product">
-                <img src="https://i.blogs.es/1b6bfa/nintendo-switch-2/1366_2000.jpeg" width="300px" alt="Producto 4" class="product_image">
-                <h2 class="product_title">Auriculares Inalámbricos</h2>
-                <p class="product_description">Auriculares con cancelación de ruido y calidad de sonido premium.</p>
-                <p class="product_price">$149.99</p>
-                <button class="add_to_cart">Añadir al carrito</button>
+                <img src="./assets/image/PC.jpg" width="300px" alt="Producto 1" class="product_image">
+                <h2 class="product_title">Dell Latitude</h2>
+                <p class="product_description">Alto rendimiento</p>
+                <p class="product_price">$600.00</p>
+                <a class="add_to_cart" href="./products/2.html">Ver Producto</a>
+            </div>
+
+             <div class="product">
+                <img src="./assets/image/PC.jpg" width="300px" alt="Producto 1" class="product_image">
+                <h2 class="product_title">Dell Latitude</h2>
+                <p class="product_description">Alto rendimiento</p>
+                <p class="product_price">$600.00</p>
+                <a class="add_to_cart" href="./products/2.html">Ver Producto</a>
+            </div>
+
+             <div class="product">
+                <img src="./assets/image/PC.jpg" width="300px" alt="Producto 1" class="product_image">
+                <h2 class="product_title">Dell Latitude</h2>
+                <p class="product_description">Alto rendimiento</p>
+                <p class="product_price">$600.00</p>
+                <a class="add_to_cart" href="./products/2.html">Ver Producto</a>
             </div>
 
             <div class="product">
-                <img src="https://i.blogs.es/1b6bfa/nintendo-switch-2/1366_2000.jpeg" width="300px" alt="Producto 5" class="product_image">
-                <h2 class="product_title">Tableta 10"</h2>
-                <p class="product_description">Tableta versátil con pantalla táctil y gran capacidad de almacenamiento.</p>
-                <p class="product_price">$399.99</p>
-                <button class="add_to_cart">Añadir al carrito</button>
+                <img src="./assets/image/IP16.webp" width="300px" alt="Producto 1" class="product_image">
+                <h2 class="product_title">Iphone 16</h2>
+                <p class="product_description">El celular del momento</p>
+                <p class="product_price">$999.99</p>
+                <a class="add_to_cart" href="./products/3.html">Ver Producto</a>
+            </div>
+
+            <div class="product">
+                <img src="./assets/image/IP16.webp" width="300px" alt="Producto 1" class="product_image">
+                <h2 class="product_title">Iphone 16</h2>
+                <p class="product_description">El celular del momento</p>
+                <p class="product_price">$999.99</p>
+                <a class="add_to_cart" href="./products/3.html">Ver Producto</a>
             </div>
             <div class="product">
-                <img src="https://i.blogs.es/1b6bfa/nintendo-switch-2/1366_2000.jpeg" width="300px" alt="Producto 6" class="product_image">
-                <h2 class="product_title">Router Wi-Fi 6</h2>
-                <p class="product_description">Router de última generación con velocidad ultrarrápida y cobertura amplia.</p>
-                <p class="product_price">$89.99</p>
-                <button class="add_to_cart">Añadir al carrito</button>
-            </div>
-            <div class="product">
-                <img src="https://i.blogs.es/1b6bfa/nintendo-switch-2/1366_2000.jpeg" width="300px" alt="Producto 7" class="product_image">
-                <h2 class="product_title">Cámara de Seguridad Inteligente</h2>
-                <p class="product_description">Cámara de seguridad con visión nocturna y detección de movimiento.</p>
-                <p class="product_price">$129.99</p>
-                <button class="add_to_cart">Añadir al carrito</button>
-            </div>
-            <div class="product">
-                <img src="https://i.blogs.es/1b6bfa/nintendo-switch-2/1366_2000.jpeg" width="300px" alt="Producto 8" class="product_image">
-                <h2 class="product_title">Altavoz Inteligente</h2>
-                <p class="product_description">Altavoz con asistente virtual integrado y calidad de sonido excepcional.</p>
-                <p class="product_price">$99.99</p>
-                <button class="add_to_cart">Añadir al carrito</button>
-            </div>
-            <div class="product">
-                <img src="https://i.blogs.es/1b6bfa/nintendo-switch-2/1366_2000.jpeg" width="300px" alt="Producto 9" class="product_image">
-                <h2 class="product_title">Disco Duro Externo 1TB</h2>
-                <p class="product_description">Disco duro externo portátil con gran capacidad de almacenamiento.</p>
-                <p class="product_price">$79.99</p>
-                <button class="add_to_cart">Añadir al carrito</button>
+                <img src="./assets/image/IP16.webp" width="300px" alt="Producto 1" class="product_image">
+                <h2 class="product_title">Iphone 16</h2>
+                <p class="product_description">El celular del momento</p>
+                <p class="product_price">$999.99</p>
+                <a class="add_to_cart" href="./products/3.html">Ver Producto</a>
             </div>
         </div>
     </section>
-    </body>
+    <footer class="footer">
+    <p class="footer_text">© 2025 ConectaTech. Todos los derechos reservados.</p>
+    <p class="footer_text">Desarrollado por Jesús Rico</p>
+    <div class="footer_social_container">
+        <a href="https://www.facebook.com">
+            <img src="../assets/icons/facebook.png" alt="Logo de Facebook" class="footer_social_image" width="36px">
+        </a>
+        <a href="https://www.linkedin.com" target="_blank">
+            <img src="../assets/icons/linkedin.png" alt="Logo de LinkedIn" class="footer_social_image" width="36px">
+        </a>
+        <a href="https://www.twitter.com" target="_blank">
+            <img src="../assets/icons/twitter.png" alt="Logo de Twitter" class="footer_social_image" width="36px">
+        </a>
+    </div>
+</footer>
+</body>
 </html>
