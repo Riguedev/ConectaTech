@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.text {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about_container {
+    display: flex;
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(20, 20, 20, 0.315);
+}
+
+.about_image {
+    width: 450px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
