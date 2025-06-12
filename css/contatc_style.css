@@ -17,6 +17,7 @@
     max-width: 1200px;
     font-size: 1.3rem;
     margin: 0 auto 20px auto;
+    padding: 0 10px;
 }
 
 /* Contact Form Styles */
@@ -119,4 +120,31 @@
     width: 36px;
     height: 36px;
     margin: 0 10px;
+}
+
+@media (max-width: 768px) {
+    .title, .description, .contact_form, .contact_info {
+        width: 100%;
+    }
+
+    .contact_form {
+        padding: 10px;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+
+    .input, #submit {
+        width: 100%;
+        max-width: none;
+    }
+
+    #message {
+        height: 150px;
+    }
 }
